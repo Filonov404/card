@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Todo.js</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Prosto+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="card">        
+    <div class="modal hide">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form action="#">
+            <div class="modal-close" data-close>&times;</div>
+            <div class="modal-title">Купить в один клик</div>
+            <input placeholder="+7 (__)-__-__-_" name="name" type="text" class="modal-input">
+            <button class="btn-redForm">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-mobile">
+    <div class="burger-mobile">
+      <img src="images/icons/burger-mobile.svg" alt="burger">
+    </div>
+    <div class="logo-360px">
+      <img class="logo-mini" src="images/icons/Logo-mobile.svg" alt="Logo">
+    </div>
+    <div class="choice-loc">
+      <a href="#" class="loc">Москва</a>
+      <img src="images/icons/choise.svg" alt="choise">
+    </div>
+    <div class="search-mobile">
+      <img src="images/icons/search-mobile.svg" alt="search">
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="logo">
+      <img src="images/icons/Logo.svg" alt="logo">
+    </div>
+    <div class="search-inner">
+      <div class="search-inner__icon">
+        <input class="search-inner__input" type="search" name="search" id="search" placeholder="Найти на сайте">
+        <span class="search-inner__aicon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div class="contacts">
+      <a class="phone" href="tel:+7(495)1285788">+7 (495) 128-57-88</a>
+      <div class="social-item">
+        <a class="social-whatsapp" href="#"></a>
+        <a class="social-viber" href="#"></a>
+        <a class="social-telegram" href="#"></a>
+      </div>
+    </div>
+    <div class="work-time">
+      <div class="time">
+        <p>8.00 - 22.00</p>
+        <span>ежедневно</span>
+      </div>
+      <div class="mail"><a class="email" href="mailto:info@firezo.ru">info@firezo.ru</a></div>
+    </div>
+    <div class="decor">
+      <img src="images/icons/star 1.svg" alt="decor">
+    </div>
+  </div>
+  </div>
+  <div class="header-bottom">
+    <div class="menu-wrapper">
+      <div class="burger-menu">
+        <img class="burger-icon" src="images/icons/menu.svg" alt="">
+        <a class="burger-btn" href="#">КАТАЛОГ</a>
+      </div>
+      <nav class="list">
+        <ul>
+          <li class="item-list">
+            <a class="item-link" href="#">На заказ</a>
+          </li>
+          <li class="item-list">
+            <a class="item-link" href="#">О нас</a>
+          </li>
+          <li class="item-list">
+            <a class="item-link" href="#">Наши работы</a>
+          </li>
+          <li class="item-list">
+            <a class="item-link" href="#">Сотрудничество</a>
+          </li>
+          <li class="item-list">
+            <a class="item-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="choice-loc">
+      <a href="#" class="loc">Москва</a>
+      <img src="images/icons/choise.svg" alt="choise">
+    </div>
+  </div>
+
+  <div class="line"></div>
+
+  <div class="slider-mobile">
+    <div class="price">
+      <div class="sale">
+        <img src="images/icons/sale.svg" alt="sale">
+        <s>12000p</s>
+      </div>
+      <p class="price-total">3000p</p>
+      <div class="subscribe-icons">
+        <a href="" class="star">
+          <img src="images/icons/StarGray.svg" alt="Star">
+        </a>
+        <a href="" class="subscribe">
+          <img class="subscribe-link" src="images/icons/subscribe.svg" alt="subscribe">
+        </a>
+      </div>
+    </div>
+    <div class="slider-wrapper">
+      <div class="slider-inner">
+        <div class="slider-img active"  data-slide="1"><imgsrc="images/slider-img.jpg" alt="slider"></div>
+      <div class="slider-img" data-slide="2"> <img  src="images/slider-img.jpg" alt="slider"></div>
+        <div class="slider-img" data-slide="3"><img src="images/slider-img.jpg" alt="slider"></div>
+      
+      </div>
+      <div class="slider-scroll">
+        <div class="slider-scroll active"data-dot="1"></div>
+        <div class="slider-scroll"data-dot="2"></div>
+        <div class="slider-scroll"data-dot="3"></div>
+        <div class="slider-scroll"data-dot="4"></div>
+      </div>
+    </div>
+    <div class="card-description">
+      <h3 class="title-description">Встраиваемый биокамин Firezo Minimal 600</h3>
+      <p class="description-text">При горении топливо не выделяет вредных для здоровья газов, что полностью оправдывает
+        приставку</p>
+      <div class="status">
+        <img src="images/icons/stat.svg" alt="">
+        <p class="status-description">В наличии</p>
+      </div>
+    </div>
+    <button class="btn-red">
+      <a href="#">Купить</a>
+    </button>
+    <button class="btn-white">
+      <a href="#">Подобрать биокамин</a>
+    </button>
+  </div>
+
+  <div class="slider">
+    <div class="slider-wrapper">
+      <div class="slider-inner">
+        <img class="slider-img1" src="images/slider-img.jpg" alt="slider">
+        <img class="slider-img2" src="images/slider-img.jpg" alt="slider">
+      </div>
+      <div class="slider-scroll">
+        <div class="slider-scroll-active"></div>
+      </div>
+    </div>
+    <div class="card-description">
+      <h3 class="title-description">Встраиваемый биокамин Firezo Minimal 600</h3>
+      <p class="description-text">При горении топливо не выделяет вредных для здоровья газов, что полностью оправдывает
+        приставку</p>
+      <div class="status">
+        <img src="images/icons/stat.svg" alt="">
+        <p class="status-description">В наличии</p>
+      </div>
+      <div class="price">
+        <div class="sale">
+          <img src="images/icons/sale.svg" alt="sale">
+          <s>12000p</s>
+        </div>
+        <p class="price-total">3000p</p>
+        <div class="subscribe-icons">
+          <a href="" class="star">
+            <img src="images/icons/StarGray.svg" alt="Star">
+          </a>
+          <a href="" class="subscribe">
+            <img src="images/icons/subscribe.svg" alt="subscribe">
+          </a>
+        </div>
+      </div>
+      <button data-modal class="btn-red">
+        <a href="#">Купить</a>
+      </button>
+      <button class="btn-white">
+        <a href="#">Подобрать биокамин</a>
+      </button>
+    </div>
+  </div>
+
+  <div class="info-desctop">
+    <div class="info-list">
+      <ul class="info-listItems">
+        <li class="items">
+          <a href="#" class="list-item">Описание</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Характеристики</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Доставка</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Гарантии</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Отзывы</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Инструкции</a>
+        </li>
+      </ul>
+    </div>
+    <div class="info-text">
+      <p>
+        Биокамин напольный Firezo Diametro Maxi
+      </p>
+      <p> Отдельностоящая напольная модель. Состоит из основания изготовленного из дуба. Корпуса топливного блока. Два
+        защитных
+        термостойких стекла.
+      </p>
+      <p>Стоимость камина зависит от размеров корпуса.
+        Данная модель может быть изготовлена по индивидуальным размерам.
+      </p>
+      <p>- Применена технология лазерной сварки топливного блока сплошным швом «Laser Line». Топливный блок надежно
+        загерметизирован. Вытяжка и дымоход не требуется, но после использования проветривайте помещение!
+      </p>
+      <p> - Защитное закаленное стекло — дополнительное опция
+        - Тонированное закаленное стекло Стемалит вклеенное в заднюю стенку камина — дополнительная опция
+      </p>
+    </div>
+    <div class="info-video">
+      <img class="video-img" src="images/video-bg.jpg" alt="info">
+      <a href="" class="play"><img class="play-icon" src="images/icons/play-video.svg" alt=""></a>
+    </div>
+  </div>
+
+  <div class="info-mobile">
+    <div class="description-mobile">
+      <a class="description-btn" href="#">Описание</a>
+    </div>
+    <div class="info-textMobile">
+      <p>
+        Биокамин напольный Firezo Diametro Maxi
+      </p>
+      <p> Отдельностоящая напольная модель. Состоит из основания изготовленного из дуба. Корпуса топливного блока. Два
+        защитных
+        термостойких стекла.
+      </p>
+      <p>Стоимость камина зависит от размеров корпуса.
+        Данная модель может быть изготовлена по индивидуальным размерам.
+      </p>
+      <p>- Применена технология лазерной сварки топливного блока сплошным швом «Laser Line». Топливный блок надежно
+        загерметизирован. Вытяжка и дымоход не требуется, но после использования проветривайте помещение!
+      </p>
+      <p> - Защитное закаленное стекло — дополнительное опция
+        - Тонированное закаленное стекло Стемалит вклеенное в заднюю стенку камина — дополнительная опция
+      </p>
+    </div>
+    <div class="info-videoMobile">
+      <img class="video-img" src="images/video-bg.jpg" alt="info">
+      <a href="" class="play"><img class="play-icon" src="images/icons/play-video.svg" alt=""></a>
+    </div>
+    <div class="info-Mobile">
+      <ul class="info-ItemsMobile">
+        <li class="items">
+          <a href="#" class="list-item">Характеристики</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Доставка</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Гарантии</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Отзывы</a>
+        </li>
+        <li class="items">
+          <a href="#" class="list-item">Инструкции</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="categories">
+    <div class="categories-wrapper">
+      <h3 class="categories-title">Товар представлен в следующих категориях
+      </h3>
+      <div class="categories-menu">
+        <ul class="categories-listWrapper">
+          <li class="categories-list">
+            <a href="#" class="categories-items">Напольные биокамины</a>
+          </li>
+          <li class="categories-list">
+            <a href="#" class="categories-items">Биокамины для дома</a>
+          </li>
+          <li class="categories-list">
+            <a href="#" class="categories-items">Биокамины для квартиры</a>
+          </li>
+          <li class="categories-list">
+            <a href="#" class="categories-items">Переносные биокамины</a>
+          </li>
+          <li class="categories-list">
+            <a href="#" class="categories-items">Биокамины для ресторана</a>
+          </li>
+          <li class="categories-list">
+            <a href="#" class="categories-items">Биокамины для офиса</a>
+          </li>
+          <li class="categories-list">
+            <a href="#" class="categories-items">Напольные биокамины</a>
+          </li>
+          <li class="categories-list">
+            <a href="#" class="categories-items">Биокамины для дома</a>
+          </li>
+          <li class="categories-list">
+            <a href="#" class="categories-items">Биокамины для квартиры</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="benefits">
+    <h1 class="benefits-title">Преимущества биокаминов FIREZO</h1>
+    <div class="benefits-wrapper">
+      <div class="benefits-leftTxt">
+        <div class="decsription-container">
+          <div class="benefits-top">
+            <p>01</p>
+            <div class="decor">
+              <img src="images/icons/decor.svg" alt="decor">
+            </div>
+          </div>
+          <div class="benefits-subtitle">Нет дыма и запаха</div>
+          <p class="benefits-txt">При горении топливо не выделяет вредных для здоровья газов, что полностью оправдывает
+            приставку «био»</p>
+        </div>
+        <img class="benefits-img" src="images/icons/benefits-img.jpg" alt="benefits">
+      </div>
+      <div class="benefits-rightTxt">
+        <img class="benefits-img" src="images/icons/benefits-img2.jpg" alt="benefits">
+        <div class="decsription-container">
+          <div class="benefits-top">
+            <p>02</p>
+            <div class="decor">
+              <img src="images/icons/decor.svg" alt="decor">
+            </div>
+          </div>
+          <div class="benefits-subtitle">Безопасен</div>
+          <p class="benefits-txt">Благодаря уникальной конструкции топливного бака, полностью исключена вероятность
+            возгорания</p>
+        </div>
+      </div>
+      <div class="benefits-leftTxt">
+        <div class="decsription-container">
+          <div class="benefits-top">
+            <p>03</p>
+            <div class="decor">
+              <img src="images/icons/decor.svg" alt="decor">
+            </div>
+          </div>
+          <div class="benefits-subtitle">Прост в установке</div>
+          <p class="benefits-txt">Не требуед монтажа специальных дымоходов и может быть установлен в любом помещении</p>
+        </div>
+        <img class="benefits-img" src="images/icons/benefits-img3.jpg" alt="benefits">
+      </div>
+      <div class="benefits-rightTxt">
+        <img class="benefits-img" src="images/icons/benefits-img4.jpg" alt="benefits">
+        <div class="decsription-container">
+          <div class="benefits-top">
+            <p>04</p>
+            <div class="decor">
+              <img src="images/icons/decor.svg" alt="decor">
+            </div>
+          </div>
+          <div class="benefits-subtitle">Лушчие дизайны</div>
+          <p class="benefits-txt">Огромное разнообразие форм и размеров позволяет вписать биокамин в любой интерьер
+          </p>
+        </div>
+      </div>
+    </div>
+    <p class="benefits-bottomText"><span>Внимание!</span><br>Биокамин Firezo способен вызвать зависть у приглашенных
+      гостей
+    </p>
+
+    <footer>
+      <div class="footer-top">
+        <div class="footer-contacts">
+          <div class="logo-footer">
+            <img src="images/icons/Logo.svg" alt="logo">
+          </div>
+          <div class="mail-footer"><a class="email-footer" href="mailto:info@firezo.ru">info@firezo.ru</a>
+          </div>
+          <a class="adress" href="#">г. Москва, ул. Тимирязевская <br> д 2/3 ТЦ Парк 11</a>
+        </div>
+
+        <div class="footer-catalog">
+          <h3 class="title-footer">Каталог</h3>
+          <ul class="footer-catalogItems">
+            <li class="footer-catalogItem">
+              <a href="#" class="footer-catalogLink">Настольные биокамины</a>
+            </li>
+            <li class="footer-catalogItem">
+              <a href="#" class="footer-catalogLink">Напольные биокамины</a>
+            </li>
+            <li class="footer-catalogItem">
+              <a href="#" class="footer-catalogLink">Настенные биокамины</a>
+            </li>
+            <li class="footer-catalogItem">
+              <a href="#" class="footer-catalogLink">Островные биокамины</a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-catalogItems2">
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Торцевые биокамины</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Встраиваемые биокамины</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Аксессуары и биотопливо</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Камины на заказ</a>
+          </li>
+        </ul>
+
+        <div class="buyers">
+          <h3 class="title-footerBuyers">Покупателям</h3>
+          <ul class="buyersCatalog-list">
+            <li class="buyersCatalog-items">
+              <a href="#" class="buyersCatalog-link">О нас</a>
+            </li>
+            <li class="buyersCatalog-items">
+              <a href="#" class="buyersCatalog-link">Каталог</a>
+            </li>
+            <li class="buyersCatalog-items">
+              <a href="#" class="buyersCatalog-link">Сотрудничество</a>
+            </li>
+            <li class="buyersCatalog-items">
+              <a href="#" class="buyersCatalog-link">Статьи</a>
+            </li>
+            <li class="buyersCatalog-items">
+              <a href="#" class="buyersCatalog-link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="footer-bottom">
+        <div class="copyright">
+          <a href="#">© 2021 Все права защищены</a>
+        </div>
+        <div class="confidicial">
+          <a href="#">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="footer-topMobile">
+      <div class="footer-catalogMobile">
+        <h3 class="title-footer">Каталог</h3>
+        <ul class="footer-catalogItems">
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Настольные биокамины</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Напольные биокамины</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Настенные биокамины</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Островные биокамины</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Торцевые биокамины</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Встраиваемые биокамины</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Аксессуары и биотопливо</a>
+          </li>
+          <li class="footer-catalogItem">
+            <a href="#" class="footer-catalogLink">Камины на заказ</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="buyersMobile">
+        <h3 class="title-footerBuyers">Покупателям</h3>
+        <!-- <ul class="buyersCatalog-list">
+          <li class="buyersCatalog-items">
+            <a href="#" class="buyersCatalog-link">О нас</a>
+          </li>
+          <li class="buyersCatalog-items">
+            <a href="#" class="buyersCatalog-link">Каталог</a>
+          </li>
+          <li class="buyersCatalog-items">
+            <a href="#" class="buyersCatalog-link">Сотрудничество</a>
+          </li>
+          <li class="buyersCatalog-items">
+            <a href="#" class="buyersCatalog-link">Статьи</a>
+          </li>
+          <li class="buyersCatalog-items">
+            <a href="#" class="buyersCatalog-link">Контакты</a>
+          </li>
+        </ul> -->
+      </div>
+
+      <div class="footer-contactsMobile">
+        <div class="logo-footerMobile">
+          <img src="images/icons/Logo-mobile-bottom.svg" alt="logo">
+        </div>
+        <a class="email-footerMobile" href="mailto:info@firezo.ru">info@firezo.ru</a>
+
+        <a class="adressMobile" href="#">г. Москва, ул. Тимирязевская <br> д 2/3 ТЦ Парк 11</a>
+      </div>
+
+    </div>
+    <div class="line"></div>
+    <div class="footer-bottomMobile">
+      <div class="copyrightMobile">
+        <a href="#">© 2021 Все права защищены</a>
+      </div>
+      <div class="confidicialMobile">
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

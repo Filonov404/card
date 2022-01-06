@@ -506,6 +506,7 @@ ul {
   flex-wrap: wrap;
   margin: 0 auto;
   padding-top: 98px;
+  max-width: 1440px;
 }
 
 .info-list {
@@ -544,7 +545,7 @@ ul {
 }
 
 .info-text > p {
-  padding: 40px;
+  padding: 10px;
 }
 
 .info-video {

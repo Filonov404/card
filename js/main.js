@@ -20,9 +20,6 @@ const modalTrigger = document.querySelector("[data-modal"),
 
  modalCloseBtn.addEventListener("click", closeModal);
 
-
-
-
 //slider
 
 const slider = document.querySelector(".gallery, .gallery-mobile");

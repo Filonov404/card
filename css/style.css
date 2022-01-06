@@ -81,22 +81,22 @@ ul {
   padding-top: 20px;
   font-weight: normal;
   font-size: 10px;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
 
 .deals::before {
   background-image: url("../images/icons/soglsshenie.svg");
   background-repeat: no-repeat;
-  content: '';
+  content: "";
   width: 15px;
   height: 15px;
   left: 0;
   top: 0;
 }
 
-.deals:hover{
- color: #000;
- cursor: pointer;
+.deals:hover {
+  color: #000;
+  cursor: pointer;
 }
 
 .btn-redForm {
@@ -749,7 +749,7 @@ footer {
   color: #232427;
 }
 
-.footer-catalogItems2{
+.footer-catalogItems2 {
   padding-top: 40px;
 }
 
@@ -809,16 +809,10 @@ footer {
     max-width: 1148px;
     margin: 0 auto;
   }
-}
-
-@media (max-width: 1440px) {
   .header-bottom {
     justify-content: space-evenly;
     width: 1150px;
   }
-}
-
-@media (max-width: 1440px) {
   .slider {
     width: 1216px;
   }
@@ -833,28 +827,20 @@ footer {
     display: block;
     flex: auto;
   }
-}
 
-@media (max-width: 1440px) {
   .card-description {
     max-width: 388px;
   }
-}
 
-@media (max-width: 1440px) {
   .btn-red,
   .btn-white {
     max-width: 389px;
   }
-}
 
-@media (max-width: 1440px) {
   .info {
     max-width: 1216px;
   }
-}
 
-@media (max-width: 1440px) {
   .categories-wrapper {
     max-width: 1216px;
   }
@@ -862,26 +848,19 @@ footer {
     padding: 46px;
     max-width: fit-content;
   }
-}
 
-@media (max-width: 1440px) {
   .benefits-wrapper {
     max-width: 1216px;
   }
 
   .decsription-container {
     padding: 25px;
-  } 
-  
-}
+  }
 
-@media (max-width: 1440px) {
   .footer-top {
     width: 1216px;
   }
-}
 
-@media (max-width: 1440px) {
   .footer-bottom {
     width: 1216px;
   }
@@ -894,7 +873,6 @@ footer {
   .slider {
     width: 924px;
   }
- 
 }
 
 @media (max-width: 1024px) {
@@ -902,21 +880,15 @@ footer {
     justify-content: space-evenly;
     max-width: 840px;
   }
-}
 
-@media (max-width: 1024px) {
   .header-bottom {
     max-width: 840px;
   }
-}
 
-@media (max-width: 1024px) {
   .list > ul {
     padding-left: 4px;
   }
-}
 
-@media (max-width: 1024px) {
   .slider {
     display: block;
     max-width: 830px;
@@ -927,9 +899,7 @@ footer {
   .price-total {
     padding-right: 9px;
   }
-}
 
-@media (max-width: 1024px) {
   .slide-wrapper {
     width: 100%;
     padding: 20px;
@@ -945,9 +915,7 @@ footer {
     width: 100%;
     margin: 0 auto;
   }
-}
 
-@media (max-width: 1024px) {
   .categories-wrapper {
     width: fit-content;
   }
@@ -961,9 +929,7 @@ footer {
   .benefits-img {
     width: 100%;
   }
-}
 
-@media (max-width: 1024px) {
   .benefits-wrapper {
     max-width: 880px;
   }
@@ -974,9 +940,7 @@ footer {
   .benefits-rightTxt {
     display: block;
   }
-}
 
-@media (max-width: 1024px) {
   .footer-top {
     width: 935px;
   }
@@ -985,15 +949,11 @@ footer {
   .footer-top {
     width: 700px;
   }
-}
 
-@media (max-width: 1024px) {
   .footer-bottom {
     display: block;
   }
-}
 
-@media (max-width: 768px) {
   .header {
     display: none;
   }
@@ -1006,9 +966,7 @@ footer {
     align-items: center;
     height: 48px;
   }
-}
 
-@media (max-width: 768px) {
   .slider {
     max-width: 550px;
     padding-top: 20px;
@@ -1020,9 +978,7 @@ footer {
   .info {
     width: 320px;
   }
-}
 
-@media (max-width: 768px) {
   .benefits-wrapper {
     max-width: 650px;
   }
@@ -1048,9 +1004,7 @@ footer {
     top: 215px;
     left: 339px;
   }
-}
 
-@media (max-width: 768px) {
   footer {
     display: none;
   }
@@ -1164,9 +1118,7 @@ footer {
     width: 320px;
     margin: 20px;
   }
-}
 
-@media (max-width: 425px) {
   .benefits-title {
     margin-top: 503px;
   }
@@ -1176,9 +1128,7 @@ footer {
   .info-mobile {
     display: block;
   }
-}
 
-@media (max-width: 425px) {
   .slide-wrapper {
     width: 410px;
     height: auto;
@@ -1225,9 +1175,7 @@ footer {
     width: 320px;
     margin: 20px;
   }
-}
 
-@media (max-width: 425px) {
   .info-listItems {
     display: flex;
     flex-direction: column;
@@ -1329,9 +1277,7 @@ footer {
   .benefits-img {
     display: none;
   }
-}
 
-@media (max-width: 425px) {
   .title-footer {
     position: relative;
     color: #232427;

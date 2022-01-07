@@ -1,6 +1,6 @@
 //modal window
 
-const modalTrigger = document.querySelector("[data-modal"),
+const modalTrigger = document.querySelector("[data-modal]"),
    modal = document.querySelector(".modal"),
    modalCloseBtn = document.querySelector("[data-close]");
 
@@ -50,3 +50,9 @@ slider.addEventListener("mousemove", (e) => {
   slider.scrollLeft = scrollLeft - walk;
 });
 
+
+       
+
+      
+       
+      

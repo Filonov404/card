@@ -1279,6 +1279,8 @@ footer {
   }
 
   .title-footer {
+    background-color: #f8fafe;
+    border: none;
     position: relative;
     color: #232427;
     font-weight: 500;
@@ -1297,6 +1299,15 @@ footer {
     left: 310px;
     bottom: -17px;
   }
+
+  .togle {
+    display: none;
+  }
+
+  .togleShow {
+    display: block;
+  }
+
   .footer-catalogItems {
     padding: 20px;
   }

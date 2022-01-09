@@ -1,24 +1,22 @@
 //modal window
 
 const modalTrigger = document.querySelector("[data-modal]"),
-   modal = document.querySelector(".modal"),
-   modalCloseBtn = document.querySelector("[data-close]");
+  modal = document.querySelector(".modal"),
+  modalCloseBtn = document.querySelector("[data-close]");
 
- 
-   modalTrigger.addEventListener("click", function () {
-     modal.classList.add("show");
-     modal.classList.remove("hide");
-     document.body.style.overflow = "hidden";
-   });
- 
+modalTrigger.addEventListener("click", function () {
+  modal.classList.add("show");
+  modal.classList.remove("hide");
+  document.body.style.overflow = "hidden";
+});
 
- function closeModal() {
-   modal.classList.add("hide");
-   modal.classList.remove("show");
-   document.body.style.overflow = "";
- }
+function closeModal() {
+  modal.classList.add("hide");
+  modal.classList.remove("show");
+  document.body.style.overflow = "";
+}
 
- modalCloseBtn.addEventListener("click", closeModal);
+modalCloseBtn.addEventListener("click", closeModal);
 
 //slider
 
@@ -49,10 +47,3 @@ slider.addEventListener("mousemove", (e) => {
   const walk = (x - startX) * SCROLL_SPEED;
   slider.scrollLeft = scrollLeft - walk;
 });
-
-
-       
-
-      
-       
-      

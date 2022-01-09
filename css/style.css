@@ -694,7 +694,7 @@ footer {
   padding-top: 87px;
   display: flex;
   justify-content: space-between;
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -775,7 +775,7 @@ footer {
 
 .footer-bottom {
   margin: 0 auto;
-  width: 1440px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding-bottom: 34px;
@@ -829,12 +829,12 @@ footer {
   }
 
   .card-description {
-    max-width: 388px;
+    width: 100%;
   }
 
   .btn-red,
   .btn-white {
-    max-width: 389px;
+    width: 100%;
   }
 
   .info {
@@ -850,7 +850,7 @@ footer {
   }
 
   .benefits-wrapper {
-    max-width: 1216px;
+    width: 80%;
   }
 
   .decsription-container {
@@ -858,11 +858,7 @@ footer {
   }
 
   .footer-top {
-    width: 1216px;
-  }
-
-  .footer-bottom {
-    width: 1216px;
+    width: 80%;
   }
 }
 
@@ -873,18 +869,24 @@ footer {
   .slider {
     width: 924px;
   }
+  .benefits-leftTxt,
+  .benefits-rightTxt {
+    display: block;
+  }
 }
 
 @media (max-width: 1024px) {
   .header {
     justify-content: space-evenly;
-    max-width: 840px;
+    max-width: 100%;
   }
 
   .header-bottom {
-    max-width: 840px;
+    max-width: 100%;
   }
-
+  .decor {
+    display: none;
+  }
   .list > ul {
     padding-left: 4px;
   }
@@ -919,30 +921,37 @@ footer {
   .categories-wrapper {
     width: fit-content;
   }
+
   .info-text {
     padding: 46px;
   }
+
   .info-video {
     padding: 40px;
   }
+
   .video-img,
   .benefits-img {
     width: 100%;
   }
 
+  .items {
+    padding: 16px 25px 16px;
+  }
+
   .benefits-wrapper {
     max-width: 880px;
   }
+
   .categories-title {
     padding: 20px;
+  }
+  .categories-list {
+    padding: 16px 22px;
   }
   .benefits-leftTxt,
   .benefits-rightTxt {
     display: block;
-  }
-
-  .footer-top {
-    width: 935px;
   }
 }
 @media (max-width: 768px) {
@@ -1100,7 +1109,7 @@ footer {
     max-width: 380px;
   }
   .card-description {
-    width: 320px;
+    width: 100%;
     margin: 20px;
   }
   .title-description {
@@ -1115,7 +1124,7 @@ footer {
   }
   .btn-red,
   .btn-white {
-    width: 320px;
+    width: 100%;
     margin: 20px;
   }
 
@@ -1172,7 +1181,7 @@ footer {
   }
   .btn-red,
   .btn-white {
-    width: 320px;
+    width: 100%;
     margin: 20px;
   }
 
@@ -1296,16 +1305,8 @@ footer {
     width: 24px;
     height: 24px;
     top: 26px;
-    left: 310px;
+    left: 281px;
     bottom: -17px;
-  }
-
-  .togle {
-    display: none;
-  }
-
-  .togleShow {
-    display: block;
   }
 
   .footer-catalogItems {
@@ -1323,7 +1324,7 @@ footer {
     width: 24px;
     height: 24px;
     top: 26px;
-    left: 310px;
+    left: 285px;
     bottom: -17px;
   }
 }
@@ -1338,12 +1339,15 @@ footer {
 }
 
 @media (max-width: 320px) {
+  .slider {
+    width: 100%;
+  }
   .slider-img {
     margin-bottom: 0;
   }
   .btn-red,
   .btn-white {
-    width: 280px;
+    width: 100%;
   }
   .benefits-wrapper {
     max-width: 280px;
@@ -1352,5 +1356,16 @@ footer {
   .video-img {
     width: 284px;
     height: auto;
+  }
+
+  .email-footerMobile::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/icons/mail.svg);
+    width: 24px;
+    height: 23px;
+    top: 35px;
+    left: 280px;
+    bottom: -17px;
   }
 }
